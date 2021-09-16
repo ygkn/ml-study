@@ -698,6 +698,17 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
+name = "pydotplus"
+version = "2.0.2"
+description = "Python interface to Graphviz's Dot language"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+pyparsing = ">=2.0.1"
+
+[[package]]
 name = "pyflakes"
 version = "2.3.1"
 description = "passive checker of Python programs"
@@ -980,7 +991,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<3.10"
-content-hash = "1d0c16e34df8d757ec34456c596956f872a5a4e5be1a2d766bd955f5d52e8499"
+content-hash = "a1b95e0689b6de459d4d215a290385e2213caa2ae5d1a947ea87ba36147f29e2"
 
 [metadata.files]
 appnope = [
@@ -1507,6 +1518,9 @@ pycodestyle = [
 pycparser = [
     {file = "pycparser-2.20-py2.py3-none-any.whl", hash = "sha256:7582ad22678f0fcd81102833f60ef8d0e57288b6b5fb00323d101be910e35705"},
     {file = "pycparser-2.20.tar.gz", hash = "sha256:2d475327684562c3a96cc71adf7dc8c4f0565175cf86b6d7a404ff4c771f15f0"},
+]
+pydotplus = [
+    {file = "pydotplus-2.0.2.tar.gz", hash = "sha256:91e85e9ee9b85d2391ead7d635e3d9c7f5f44fd60a60e59b13e2403fa66505c4"},
 ]
 pyflakes = [
     {file = "pyflakes-2.3.1-py2.py3-none-any.whl", hash = "sha256:7893783d01b8a89811dd72d7dfd4d84ff098e5eed95cfa8905b22bbffe52efc3"},
